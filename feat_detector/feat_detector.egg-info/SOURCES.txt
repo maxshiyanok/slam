@@ -1,9 +1,0 @@
-setup.py
-feat_detector/__init__.py
-feat_detector/feature_detector.py
-feat_detector/superpoint.py
-feat_detector.egg-info/PKG-INFO
-feat_detector.egg-info/SOURCES.txt
-feat_detector.egg-info/dependency_links.txt
-feat_detector.egg-info/not-zip-safe
-feat_detector.egg-info/top_level.txt
