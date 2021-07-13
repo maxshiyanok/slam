@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(name='feat_detector',
-version='0.8.1',
+version='0.8.3',
 description='Testing installation of Package',
 url='#',
 author='auth',

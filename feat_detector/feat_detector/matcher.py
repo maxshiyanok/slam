@@ -41,7 +41,7 @@ class Matcher:
         return good
 
     def sup_match(self, des1, des2):
-        return superpoint.sp_match(des1, des2, 0.1)
+        return np.int32(superpoint.sp_match(des1, des2, 0.1))
 
     def matching(self, des1, des2):
         if self.back == 'ORB':

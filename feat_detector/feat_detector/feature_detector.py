@@ -40,7 +40,7 @@ class FeatureDetector:
         for i in image:
             kp1, des1, heatmap = sp.get_features(i)
             kp2.append(np.array(kp1).astype(int))
-            des.append(np.array(des1).astype(int))
+            des.append(np.array(des1))
         kp = [[cv.KeyPoint(kp2[i][0][j], kp2[i][1][j], 1) for j in range(len(kp2[i][0]))] for i in range(len(kp2))]
         return kp, des
 
